@@ -20,6 +20,7 @@ header{
 
 }
 
+/* Titulos */
 h1{
     font-size: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -27,8 +28,11 @@ h1{
 }
 h2{
      font-size:1.5em
+/*Titulos*/
 
 }
+
+
 p{
     line-height: 1.5;
     font-size: 1.2em;
@@ -84,8 +88,9 @@ nav ul li{
 nav ul li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 25PX 35px;
+    padding: 45PX 55px;
     display: block;
+    font-size: 30px;
 
 
 }
@@ -124,8 +129,8 @@ nav ul li a:hover {
 
 .simbolo img{
     width: 100%;
-    max-width: 100px;
-    height: 100px;
+    max-width: 120px;
+    height: 120px;
 }
 
 nav{
@@ -169,13 +174,15 @@ footer{
   }
 
     .caixa.imagem{
-    text-align: center;
+    
     margin-top: 1%;
+    display: flex;
+
 
     }
     figure figcaption{
     margin: 1.0em;
-    text-align: center;
+
     color: rgb(0, 0, 0);
 
 
@@ -219,3 +226,4 @@ footer{
      display: block;
 }
     }
+
